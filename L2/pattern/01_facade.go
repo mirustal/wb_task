@@ -38,7 +38,7 @@ func (c *CarFacade) Operate() string {
 type Engine struct {
 }
 
-// Start запускает двигатель.
+
 func (e *Engine) Start() string {
 	return "Engine started"
 }
